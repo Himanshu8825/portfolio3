@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <div className="bg-transparent flex flex-col justify-center items-center">
-        {/* <img src={contact_bg} alt="" /> */}
+
 
         <p className="text-4xl text-bg-primary font-Rubik p-8 font-medium">
           Contact With Us

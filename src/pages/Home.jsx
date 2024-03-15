@@ -1,6 +1,16 @@
 import React from "react";
 import { Hero } from "../assets/index";
 
+import Footer from "../components/Footer";
+import {
+  AboutMe,
+  Work,
+  Gallery,
+  Contact,
+  Blog,
+  Award,
+} from "../Index";
+
 const Home = () => {
   return (
     <>
@@ -28,6 +38,27 @@ const Home = () => {
           ></iframe>
         </span>
       </div>
+
+      <section>
+        <AboutMe />
+      </section>
+      <section>
+        <Award />
+      </section>
+      <section>
+        <Work />
+      </section>
+      <section>
+        <Gallery />
+      </section>
+      <section>
+        <Blog />
+      </section>
+      <section>
+        <Contact />
+      </section>
+
+      <Footer />
     </>
   );
 };

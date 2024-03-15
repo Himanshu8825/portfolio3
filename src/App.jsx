@@ -1,40 +1,31 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { Home, AboutMe, Work, Gallery, Contact, Blog, Award } from "./Index";
-import Footer from "./components/Footer";
+import Aboutme from "./components/Aboutme";
+import WorkProject from "./components/WorkProject";
+import GalleryComp from "./components/GalleryComp";
+import BlogComp from "./components/BlogComp";
+import { Home } from "./Index";
 
 const App = () => {
   return (
     <>
       {/* className="fixed top-0 left-0 right-0 bg-white" */}
-      <section>
-        <Navbar />
-      </section>
-      <section>
-        <Home />
-      </section>
-      <section>
-        <AboutMe />
-      </section>
-      <section>
-        <Award />
-      </section>
-      <section>
-        <Work />
-      </section>
-      <section>
-        <Gallery />
-      </section>
-      <section>
-        <Blog />
-      </section>
-      <section>
-        <Contact />
-      </section>
-      <section>
-        <Footer />
-      </section>
+
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Aboutme />} />
+        <Route path="/work" element={<WorkProject />} />
+        <Route path="/gallery" element={<GalleryComp />} />
+        <Route path="/blog" element={<BlogComp />} />
+      </Routes>
+
+      {/* <Aboutme/> */}
+      {/* <WorkProject /> */}
+      {/* <GalleryComp /> */}
+      {/* <BlogComp /> */}
     </>
   );
 };

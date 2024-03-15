@@ -33,7 +33,12 @@
   object-fit: cover;
 }
 
-
+/* .contact_bg {
+  background-image: url(./assets/images/contact_bg.png);
+  width: auto;
+  height: 1615px;
+  background-size: cover;
+} */
 
 .gradient-background {
   background-image: linear-gradient(

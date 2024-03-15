@@ -4,7 +4,7 @@ import { Card1, Card2, Card3 } from "../assets/index";
 const AboutMe = () => {
   return (
     <>
-      <div>
+      <div id="about">
         <p className="text-4xl px-4 py-4 font-Rubik font-medium flex justify-center m-4">
           About Me
         </p>

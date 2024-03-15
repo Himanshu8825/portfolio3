@@ -1,39 +1,86 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+  const [activePath, setActivePath] = useState("");
+
+  useEffect(() => {
+    setActivePath(location.pathname);
+  }, [location.pathname]);
+
   return (
-    <>
-      <div className="w-full flex justify-between items-center px-8 py-6">
-        <span>
-          <p className=" font-Rubik text-bg-primary font-bold text-xl">
-            Bibin Babu.
-          </p>
-        </span>
-        <span>
-          <ul className="text-bg-secondary text-base font-Roboto font-medium flex justify-start items-center gap-8 cursor-pointer">
-            <Link to="/">
-              <li>Home</li>
+    <div className="w-full flex justify-between items-center px-8 py-6">
+      <span>
+        <p className="font-Rubik text-bg-primary font-bold text-xl">
+          Bibin Babu.
+        </p>
+      </span>
+      <span>
+        <ul className="text-bg-primary text-base font-Roboto font-medium flex justify-start items-center gap-8 cursor-pointer">
+          <li>
+            <Link
+              to="/"
+              className={
+                activePath === "/" ? "underline text-bg-secondary " : ""
+              }
+            >
+              Home
             </Link>
-            <Link to="/about">
-              <li>About Me</li>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className={
+                activePath === "/about" ? "underline text-bg-secondary" : ""
+              }
+            >
+              About Me
             </Link>
-            <Link to="work">
-              <li>Work</li>
+          </li>
+          <li>
+            <Link
+              to="/work"
+              className={
+                activePath === "/work" ? "underline text-bg-secondary" : ""
+              }
+            >
+              Work
             </Link>
-            <Link to="/gallery">
-              <li>Gallery</li>
+          </li>
+          <li>
+            <Link
+              to="/gallery"
+              className={
+                activePath === "/gallery" ? "underline text-bg-secondary" : ""
+              }
+            >
+              Gallery
             </Link>
-            <Link to="/blog">
-              <li>Blog</li>
+          </li>
+          <li>
+            <Link
+              to="/blog"
+              className={
+                activePath === "/blog" ? "underline text-bg-secondary" : ""
+              }
+            >
+              Blog
             </Link>
-            <Link to="/contact">
-              <li>Contact</li>
+          </li>
+          <li>
+            <Link
+              to="/#"
+              className={
+                activePath === "/#" ? "underline text-bg-secondary" : ""
+              }
+            >
+              Contact
             </Link>
-          </ul>
-        </span>
-      </div>
-    </>
+          </li>
+        </ul>
+      </span>
+    </div>
   );
 };
 
