@@ -16,25 +16,25 @@
 }
 
 .image {
-  background-image: url(./assets/images/hero_bg.png);
+  background-image: url(./assets/images/hero-bg.webp);
 }
 
 .award {
-  background-image: url(./assets/images/Bg-award.png);
+  background-image: url(./assets/images/bg-award.webp);
 }
 
 .work_bg {
-  background-image: url(./assets/images/work_bg.png);
+  background-image: url(./assets/images/work-bg.webp);
   background-repeat: no-repeat;
 }
 
 .blog {
-  background-image: url(./assets/images/blog_bg.png);
+  background-image: url(./assets/images/blog-bg.webp);
   object-fit: cover;
 }
 
 /* .contact_bg {
-  background-image: url(./assets/images/contact_bg.png);
+  background-image: url(./assets/images/contact_bg.webp);
   width: auto;
   height: 1615px;
   background-size: cover;
