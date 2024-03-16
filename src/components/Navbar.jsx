@@ -31,7 +31,16 @@ const Navbar = () => {
           }`}
           onClick={toggleMenu}
         />
+        {showMenu && (
+          <div
+            className="text-3xl absolute right-5 top-0 text-bg-primary"
+            onClick={toggleMenu}
+          >
+            x
+          </div>
+        )}
         {/* List Items */}
+
         <ul
           className={`text-bg-primary text-lg  font-Roboto font-semibold gap-4 ${
             showMenu

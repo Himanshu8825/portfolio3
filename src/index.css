@@ -17,10 +17,14 @@
 
 .image {
   background-image: url(./assets/images/hero-bg.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .award {
-  background-image: url(./assets/images/bg-award.webp);
+  background-image: url(./assets/images/award-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work_bg {
@@ -30,6 +34,7 @@
 
 .blog {
   background-image: url(./assets/images/blog-bg.webp);
+  background-size: cover;
   object-fit: cover;
 }
 
@@ -42,9 +47,9 @@
 
 .gradient-background {
   background-image: linear-gradient(
-    to right,
-    rgba(151, 31, 125, 1),
-    rgba(97, 17, 226, 1)
+    to bottom,
+    rgba(151, 31, 125, 0.8),
+    /* rgba(151, 31, 125, 0.7), */ rgba(97, 17, 226, 0.8)
   );
 }
 
@@ -54,6 +59,8 @@
     rgba(97, 17, 226, 0.3),
     rgba(97, 17, 226, 0.15)
   );
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 
 /* .AwardGradient {

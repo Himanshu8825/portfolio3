@@ -11,7 +11,7 @@ const Gallery = () => {
         </p>
 
         <span className="w-full flex justify-center">
-          <span className="grid grid-cols-3 p-[2rem] gap-6 w-[80%] cursor-pointer">
+          <span className="grid ss:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 p-[2rem] gap-6 w-[80%] cursor-pointer">
             {images.images.map((image) => (
               <img
                 key={image.id}

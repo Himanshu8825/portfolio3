@@ -17,8 +17,8 @@ const Work = () => {
         Projects and Work
       </p>
 
-      <span className="flex justify-around p-6">
-        <span className="w-[40%] p-4">
+      <span className="flex justify-around p-6 ss:flex-row flex-col">
+        <span className="ss:w-[40%] w-full p-4 order-last ss:order-1">
           <p className="font-Roboto text-lg">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
             dignissimos delectus hic rerum repudiandae odit earum sunt
@@ -28,7 +28,7 @@ const Work = () => {
             Explore
           </button>
         </span>
-        <span className="flex relative">
+        <span className="flex relative order-1 ss:order-last">
           <img src={project_round_card1} alt="" className="h-[250px]" />
           <img
             src={project_round_card2}

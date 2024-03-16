@@ -9,15 +9,12 @@ const Award = () => {
           <span className="flex justify-center p-8">
             <p className="text-4xl ">Awards and Recognition</p>
           </span>
-          <span className="flex justify-evenly gap-4">
-            <img src={Award1} alt="" loading="lazy"  />
-
+          <div className="grid ss:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-items-center gap-4 p-4">
+            <img src={Award1} alt="" loading="lazy" />
             <img src={Award2} alt="" loading="lazy" />
-
             <img src={Award3} alt="" loading="lazy" />
-
             <img src={Award4} alt="" loading="lazy" />
-          </span>
+          </div>
         </span>
       </div>
     </>

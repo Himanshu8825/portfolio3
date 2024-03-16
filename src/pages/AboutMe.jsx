@@ -8,7 +8,7 @@ const AboutMe = () => {
         <p className="text-4xl px-4 py-4 font-Rubik font-medium flex justify-center m-4">
           About Me
         </p>
-        <span className="flex justify-between m-[2rem] gap-[4rem]">
+        <span className="grid ss:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-items-center m-[2rem] gap-[4rem]">
           <span className="text-center">
             <h2 className="text-2xl font-semibold video py-3 rounded-lg m-1 font-Rubik">
               Entrepreneur

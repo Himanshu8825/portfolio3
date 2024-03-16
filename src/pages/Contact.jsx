@@ -5,14 +5,12 @@ import { TfiNewWindow } from "react-icons/tfi";
 const Contact = () => {
   return (
     <>
-      <div className="bg-transparent flex flex-col justify-center items-center">
-
-
+      <div className="bg-transparent md:w-full flex flex-col justify-center items-center">
         <p className="text-4xl text-bg-primary font-Rubik p-8 font-medium">
           Contact With Us
         </p>
 
-        <div className="gradient-background p-[2rem] bg-opacity-15 backdrop-filter backdrop-blur-xl rounded-2xl font-Roboto">
+        <div className="gradient-background p-[2rem] opacity-[0.85] backdrop-blur-[100px] rounded-3xl font-Roboto">
           <form action="" className="flex flex-col gap-2 text-white">
             <div className="flex justify-between gap-4">
               <label htmlFor="firstName">
