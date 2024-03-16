@@ -1,28 +1,49 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const location = useLocation();
   const [activePath, setActivePath] = useState("");
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     setActivePath(location.pathname);
   }, [location.pathname]);
 
+  // Function to toggle the visibility of the menu
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
-    <div className="w-full flex justify-between items-center px-8 py-6 ">
-      <span>
+    <nav className="w-full flex justify-between items-center px-8 py-6">
+      <span className="">
         <p className="font-Rubik text-bg-primary font-bold text-xl">
           Bibin Babu.
         </p>
       </span>
-      <span>
-        <ul className="text-bg-primary text-base font-Roboto font-medium flex justify-start items-center gap-8 cursor-pointer">
+      <span className="flex items-center gap-0">
+        {/* Hamburger Menu */}
+        <GiHamburgerMenu
+          className={`text-3xl text-bg-primary  block md:hidden cursor-pointer ${
+            !showMenu ? "block" : "hidden"
+          }`}
+          onClick={toggleMenu}
+        />
+        {/* List Items */}
+        <ul
+          className={`text-bg-primary text-lg  font-Roboto font-semibold gap-4 ${
+            showMenu
+              ? "flex flex-col md:flex-row md:gap-8 gap-2"
+              : "hidden md:flex"
+          }`}
+        >
           <li>
             <Link
               to="/"
               className={
-                activePath === "/" ? "underline text-bg-secondary " : ""
+                activePath === "/" ? "underline text-bg-secondary" : ""
               }
             >
               Home
@@ -80,7 +101,7 @@ const Navbar = () => {
           </li>
         </ul>
       </span>
-    </div>
+    </nav>
   );
 };
 
