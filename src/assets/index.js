@@ -22,11 +22,11 @@ import gallery_card5 from "./images/gallery-card5.webp";
 import gallery_card6 from "./images/gallery-card6.webp";
 import blog from "./images/blog.webp";
 import icon from "./images/icon.svg";
-import contact_bg from "./images/contact-bg.webp";
 import card_bg from "./images/card-bg.webp";
 import click_up from "./images/click_up.svg";
 import dropdown from "./images/dropdown.svg";
-import freshbook from './images/freshbook.webp';
+import freshbook from "./images/freshbook.webp";
+import contact_bg from "./images/contact-bg.webp";
 
 export {
   hero_bg,
@@ -53,9 +53,9 @@ export {
   gallery_card6,
   blog,
   icon,
-  contact_bg,
   card_bg,
   click_up,
   dropdown,
   freshbook,
+  contact_bg,
 };

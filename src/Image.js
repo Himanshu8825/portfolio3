@@ -5,6 +5,8 @@ import {
   gallery_card4,
   gallery_card5,
   gallery_card6,
+  blog,
+  card_bg,
 } from "./assets/index";
 
 let images = [
@@ -85,4 +87,88 @@ let galleryImg = [
   },
 ];
 
-export default { images, galleryImg };
+let blogData = [
+  {
+    id: "1",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "2",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "3",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "4",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "5",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "6",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "7",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "8",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+  {
+    id: "9",
+    src: blog,
+    title: "Topic",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
+    profile: card_bg,
+    author: "TOI",
+    time: "07:00 PM",
+  },
+];
+
+export default { images, galleryImg, blogData };

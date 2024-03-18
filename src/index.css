@@ -40,8 +40,8 @@
 
 /* .contact_bg {
   background-image: url(./assets/images/contact_bg.webp);
-  width: auto;
-  height: 1615px;
+  width: 500px;
+  height: 800px;
   background-size: cover;
 } */
 
@@ -71,3 +71,29 @@
   );
   backdrop-filter: blur(10px);
 } */
+
+li a {
+  position: relative;
+  color: inherit;
+}
+
+li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  margin-bottom: -3px;
+  height: 3px;
+  background-color: #6111e2;
+  transition: width 0.3s ease;
+}
+
+li a:hover::after {
+  width: 100%;
+}
+
+li a:hover {
+  font-weight: bold;
+  color: #6111e2;
+}

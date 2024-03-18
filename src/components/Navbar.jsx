@@ -52,7 +52,9 @@ const Navbar = () => {
             <Link
               to="/"
               className={
-                activePath === "/" ? "underline text-bg-secondary" : ""
+                activePath === "/"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               Home
@@ -62,7 +64,9 @@ const Navbar = () => {
             <Link
               to="/about"
               className={
-                activePath === "/about" ? "underline text-bg-secondary" : ""
+                activePath === "/about"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               About Me
@@ -72,7 +76,9 @@ const Navbar = () => {
             <Link
               to="/work"
               className={
-                activePath === "/work" ? "underline text-bg-secondary" : ""
+                activePath === "/work"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               Work
@@ -82,7 +88,9 @@ const Navbar = () => {
             <Link
               to="/gallery"
               className={
-                activePath === "/gallery" ? "underline text-bg-secondary" : ""
+                activePath === "/gallery"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               Gallery
@@ -92,7 +100,9 @@ const Navbar = () => {
             <Link
               to="/blog"
               className={
-                activePath === "/blog" ? "underline text-bg-secondary" : ""
+                activePath === "/blog"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               Blog
@@ -100,9 +110,11 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/#"
+              to="#contact"
               className={
-                activePath === "/#" ? "underline text-bg-secondary" : ""
+                activePath === "#contact"
+                  ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
+                  : ""
               }
             >
               Contact

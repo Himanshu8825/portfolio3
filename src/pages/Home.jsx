@@ -55,7 +55,7 @@ const Home = () => {
       <section>
         <Blog />
       </section>
-      <section>
+      <section  id="contact">
         <Contact />
       </section>
 

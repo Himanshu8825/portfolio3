@@ -1,11 +1,16 @@
 import React from "react";
 import { MdOutlineEmail, MdOutlinePhoneInTalk } from "react-icons/md";
 import { TfiNewWindow } from "react-icons/tfi";
+import { contact_bg } from "../assets/index";
 
 const Contact = () => {
   return (
     <>
-      <div className="bg-transparent md:w-full flex flex-col justify-center items-center">
+      <div
+        className=" contact_bg bg-transparent md:w-full flex flex-col justify-center items-center"
+        id="contact"
+      >
+        {/* <img src={contact_bg} alt="" /> */}
         <p className="text-4xl text-bg-primary font-Rubik p-8 font-medium">
           Contact With Us
         </p>
