@@ -91,7 +91,7 @@ let blogData = [
   {
     id: "1",
     src: blog,
-    title: "Topic",
+    title: "Topic1",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -100,7 +100,7 @@ let blogData = [
   {
     id: "2",
     src: blog,
-    title: "Topic",
+    title: "Topic2",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -109,7 +109,7 @@ let blogData = [
   {
     id: "3",
     src: blog,
-    title: "Topic",
+    title: "Topic3",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -118,7 +118,7 @@ let blogData = [
   {
     id: "4",
     src: blog,
-    title: "Topic",
+    title: "Topic4",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -127,7 +127,7 @@ let blogData = [
   {
     id: "5",
     src: blog,
-    title: "Topic",
+    title: "Topic5",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -136,7 +136,7 @@ let blogData = [
   {
     id: "6",
     src: blog,
-    title: "Topic",
+    title: "Topic6",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -145,7 +145,7 @@ let blogData = [
   {
     id: "7",
     src: blog,
-    title: "Topic",
+    title: "Topic7",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -154,7 +154,7 @@ let blogData = [
   {
     id: "8",
     src: blog,
-    title: "Topic",
+    title: "Topic8",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",
@@ -163,7 +163,7 @@ let blogData = [
   {
     id: "9",
     src: blog,
-    title: "Topic",
+    title: "Topic9",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia necessitatibus natus illo, cupiditate eum exercitationem odio in fugit alias?",
     profile: card_bg,
     author: "TOI",

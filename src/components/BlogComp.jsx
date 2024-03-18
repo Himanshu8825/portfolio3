@@ -2,8 +2,13 @@ import React from "react";
 import { IoMdTime } from "react-icons/io";
 import blogData from "../Image";
 import { icon } from "../assets/index";
+import { useNavigate } from "react-router";
 
 const BlogComp = () => {
+  const navigate = useNavigate();
+  const redirectToBlog = (id) => {
+    navigate(`/blog?blog=${id}`);
+  };
   return (
     <>
       <img
@@ -16,6 +21,7 @@ const BlogComp = () => {
           <span
             key={blogItem.id}
             className="bg-white p-6 rounded-2xl shadow-2xl cursor-pointer"
+            onClick={() => redirectToBlog(blogItem.id)}
           >
             <img src={blogItem.src} alt="Blog" className="mx-auto" />
             <p className="underline text-black text-2xl font-Rubik">

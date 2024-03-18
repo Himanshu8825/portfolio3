@@ -24,8 +24,8 @@ const App = () => {
           <Route path="/about" element={<Aboutme />} />
           <Route path="/work" element={<WorkProject />} />
           <Route path="/gallery" element={<GalleryComp />} />
-          <Route path="/blog" element={<BlogComp />} />
-          <Route path="blog2" element={<BlogPage />} />
+          <Route path="/blogs" element={<BlogComp />} />
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/editor" element={<ReactEditor />} />
         </Routes>
       </div>

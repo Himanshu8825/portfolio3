@@ -98,9 +98,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/blog"
+              to="/blogs"
               className={
-                activePath === "/blog"
+                activePath === "/blogs" || activePath === "/blog"
                   ? "border-b-[3px] border-b-bg-secondary text-bg-secondary"
                   : ""
               }
