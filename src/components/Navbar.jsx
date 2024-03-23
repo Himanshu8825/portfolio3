@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   const location = useLocation();
@@ -33,18 +34,18 @@ const Navbar = () => {
         />
         {showMenu && (
           <div
-            className="text-3xl absolute right-5 top-0 text-bg-primary"
+            className="text-3xl absolute right-[2rem] top-[1.5rem] text-bg-primary"
             onClick={toggleMenu}
           >
-            x
+            <RxCross2 />
           </div>
         )}
         {/* List Items */}
 
         <ul
-          className={`text-bg-primary text-lg  font-Roboto font-semibold gap-4 ${
+          className={`text-bg-primary text-lg  font-Roboto font-semibold ss:gap-4 gap-1 ss:bg-transparent bg-white ss:p-0 p-6 ss:mt-0 mt-[1rem] ss:rounded-none rounded-xl bg-opacity-15 backdrop-filter backdrop-blur-md ss:border-none border border-bg-secondary ${
             showMenu
-              ? "flex flex-col md:flex-row md:gap-8 gap-2"
+              ? " flex flex-col md:flex-row md:gap-8 gap-2  slideIn  absolute z-50 right-2 top-[4rem]"
               : "hidden md:flex"
           }`}
         >

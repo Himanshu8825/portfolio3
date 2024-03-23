@@ -97,3 +97,18 @@ li a:hover {
   font-weight: bold;
   color: #6111e2;
 }
+
+/* Navbar.css */
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideIn {
+  animation: slideIn 0.7s forwards;
+}
